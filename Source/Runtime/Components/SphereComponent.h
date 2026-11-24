@@ -1,0 +1,22 @@
+#pragma once
+
+#include "ShapeComponent.h"
+#include "SphereComponent.generated.h"
+
+UCLASS()
+class USphereComponent : public UShapeComponent
+{
+	GENERATED_BODY()
+public:
+	UPROPERTY(EditAnywhere)
+	float SphereRadius = 50.0f;
+
+	// 비균일 스케일이면 가장 큰 축을 쓴다
+	float GetScaledSphereRadius() const;
+	virtual FBox CalcLocalBounds() const override;
+	virtual void DrawDebug(FLineBatcher*, const FVector4&) const override;
+
+protected:
+	virtual void UpdateBodySetup(UBodySetup& Setup) const override;
+	virtual bool IsShapeSizeProperty(const FString& Name) const override { return Name == "SphereRadius"; }
+};

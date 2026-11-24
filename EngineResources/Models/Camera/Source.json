@@ -1,0 +1,15 @@
+{
+  "mesh": "/Engine/EditorMeshes/MatineeCam_SM",
+  "texture": "/Engine/EditorResources/MatineeCam_D",
+  "geometry": {
+    "vertices": 3202,
+    "normals": 3202,
+    "uvs": 3202,
+    "triangles": 4528
+  },
+  "source_sha256": {
+    "MatineeCam_SM.uasset": "5afe8b420da393dc20b19aee3373feac6677637f744f34fc84200312882fb0d6",
+    "MatineeCam_D.uasset": "26cebac0a7d98f513b0ff2df5a89b69f5bd280e7773fd053f9589b3d589eaa90"
+  },
+  "coordinates": "Original UE centimeters, +X forward, +Y right, +Z up after Kurisu OBJ import"
+}

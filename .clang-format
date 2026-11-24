@@ -1,0 +1,33 @@
+---
+Language: Cpp
+BasedOnStyle: Microsoft
+
+# Match the project's tab indentation and Allman braces.
+UseTab: ForIndentation
+IndentWidth: 4
+TabWidth: 4
+ContinuationIndentWidth: 4
+BreakBeforeBraces: Allman
+AccessModifierOffset: -4
+IndentCaseLabels: false
+NamespaceIndentation: All
+ColumnLimit: 0
+
+# Keep PCH and generated-header include order intact.
+SortIncludes: false
+IncludeBlocks: Preserve
+
+PointerAlignment: Left
+ReferenceAlignment: Left
+DerivePointerAlignment: false
+SpaceAfterCStyleCast: false
+SpaceBeforeParens: ControlStatements
+
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Never
+AllowShortLambdasOnASingleLine: Inline
+FixNamespaceComments: false
+MaxEmptyLinesToKeep: 1
+...

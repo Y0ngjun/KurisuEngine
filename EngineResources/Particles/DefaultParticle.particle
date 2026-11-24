@@ -1,0 +1,28 @@
+{
+    "Properties": {},
+    "Version": 1,
+    "Emitters": [
+        {
+            "Properties": {},
+            "LODLevels": [
+                {
+                    "Properties": {},
+                    "RequiredModule": {
+                        "Properties": {
+                            "Material": { "Asset": "ParticleSpriteAdditive" }
+                        }
+                    },
+                    "SpawnModule": {
+                        "Properties": {}
+                    },
+                    "Modules": [
+                        { "Class": "UParticleModuleLifetime", "Data": { "Properties": {} } },
+                        { "Class": "UParticleModuleSize", "Data": { "Properties": {} } },
+                        { "Class": "UParticleModuleVelocity", "Data": { "Properties": {} } },
+                        { "Class": "UParticleModuleColor", "Data": { "Properties": {} } }
+                    ]
+                }
+            ]
+        }
+    ]
+}

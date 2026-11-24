@@ -1,0 +1,3 @@
+newmtl MatineeCam_mat
+Kd 1 1 1
+map_Kd MatineeCam_D.png
